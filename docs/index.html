@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>URL Shortener</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1>REGISTER FORM</h1>
+          <form action="" onsubmit="registerUser(); return false;">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name=""
+                id="name"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name=""
+                id="email"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name=""
+                id="password"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="retype">Retype Password</label>
+              <input
+                type="password"
+                name=""
+                id="retype"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary form-control" type="submit">
+                Regiser
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-6">
+          <h1>LOGIN FORM</h1>
+          <form action="" onsubmit="loginUser(); return false;">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name=""
+                id="loginEmail"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name=""
+                id="loginPassword"
+                value=""
+                class="form-control"
+              />
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <button class="btn btn-primary form-control" type="submit">
+                    Login
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <a class="btn btn-primary" href="changePass.html"
+                    >Forgot Password?</a
+                  >
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
